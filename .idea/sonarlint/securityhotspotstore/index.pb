@@ -7,3 +7,13 @@ Jsrc/org/iesalandalus/programacion/actividades/file/MostrarPropiedades.java,a\a
 asrc/org/iesalandalus/programacion/actividades/flujos_de_caracteres/EscribirFicheroTextoFlujo.java,c\2\c2081d724943ef0c2763d6b6c98d3efa6f6f1152
 I
 ficheros/ficheroTexto.txt,0\4\041c5d8fd627ec1989bed6ce655d9b522455b662
+Š
+Zsrc/org/iesalandalus/programacion/actividades/flujos_de_caracteres/CopiarFicheroTexto.java,e\b\eb07989d77b8e4852765969dbcd205ffe5ca73ed
+O
+ficheros/ficheroTextoGrande.txt,0\4\04eeff4d6d64d1838c4833d08b1e12a2f8fbed13
+O
+ficheros/salidaFicheroTexto.txt,1\c\1c3d6a5d0d767925c359e4deefc0a0b3021d84ea
+J
+ficheros/ficheroSalida.txt,4\c\4c61e2afe3e72476ea3271cc7e5cd8a909b15378
+K
+ficheros/ficheroEntrada.txt,e\e\ee187caab2d5a1810dd31c7f525999eb544e2a3a
