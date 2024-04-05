@@ -40,11 +40,11 @@ public class MostrarPropiedades {
                         System.out.println("Oculto: " + false);
                     }
 
-                    String[] listaCarpetas = entrada.list();
+                    File[] listaCarpetas = entrada.listFiles();
 
                     if (listaCarpetas != null) {
-                        System.out.printf("%nContenido de la carpeta: %n%s%n", listaCarpetas);
-                        for (String nombreArchivo : listaCarpetas) {
+                        System.out.printf("Contenido de la carpeta: %n%s%n", listaCarpetas);
+                        for (File nombreArchivo : listaCarpetas) {
                             System.out.println(nombreArchivo);
                         }
                         System.out.println();
