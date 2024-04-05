@@ -11,20 +11,30 @@ public class MostrarArbol {
         String mensaje = Entrada.cadena();
         File entrada = new File(mensaje);
         if (entrada.exists() && entrada.isDirectory()) {
-            String[] listaCarpetas = entrada.list();
-            if (listaCarpetas != null) {
-                for (String nombreCarpetaPadre : listaCarpetas) {
-                    File carpeta = new File(entrada, nombreCarpetaPadre);
-                    System.out.println(nombreCarpetaPadre);
-                    if (carpeta.isDirectory()) {
-                        String[] listaCarpetasHijas = carpeta.list();
-                        if(listaCarpetasHijas != null){
-                            for(String nombreCarpetaHija : listaCarpetasHijas){
-                                File carpetaHija = new File(nombreCarpetaHija);
-                                System.out.println("    " + nombreCarpetaHija);
-                            }
-                        }
+            mostrarArbol(entrada, "");
+        }else{
+            throw new FileNotFoundException("No se ha encontrado el directorio o este no lo es.");
+        }
+    }
+
+    private static void mostrarArbol(File carpeta, String espacio) {
+        File[] archivos = carpeta.listFiles();
+        if (archivos != null) {
+            for (int i = 0; i < archivos.length; i++) {
+                if (i == archivos.length - 1) {
+                    System.out.println(espacio + "└── " + archivos[i].getName());
+                    /*https://www.asciitable.com/*/
+                } else {
+                    System.out.println(espacio + "├── " + archivos[i].getName());
+                }
+                if (archivos[i].isDirectory()) {
+                    String nuevoEspacio;
+                    if (i == archivos.length - 1) {
+                        nuevoEspacio = espacio + "    ";
+                    } else {
+                        nuevoEspacio = espacio + "│   ";
                     }
+                    mostrarArbol(archivos[i], nuevoEspacio);
                 }
             }
         }

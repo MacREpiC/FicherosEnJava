@@ -43,11 +43,7 @@ public class MostrarPropiedades {
                     File[] listaCarpetas = entrada.listFiles();
 
                     if (listaCarpetas != null) {
-                        System.out.printf("Contenido de la carpeta: %n%s%n", listaCarpetas);
-                        for (File nombreArchivo : listaCarpetas) {
-                            System.out.println(nombreArchivo);
-                        }
-                        System.out.println();
+                        mostrarArbol(entrada, "");
                     } else {
                         System.out.println("La carpeta está vacía.");
                     }
@@ -60,6 +56,28 @@ public class MostrarPropiedades {
             }
             System.out.printf("%nDime el nombre del fichero o directorio: ");
             mensaje = Entrada.cadena();
+        }
+    }
+    private static void mostrarArbol(File carpeta, String espacio) {
+        File[] archivos = carpeta.listFiles();
+        if (archivos != null) {
+            for (int i = 0; i < archivos.length; i++) {
+                if (i == archivos.length - 1) {
+                    System.out.println(espacio + "└── " + archivos[i].getName());
+                    /*https://www.asciitable.com/*/
+                } else {
+                    System.out.println(espacio + "├── " + archivos[i].getName());
+                }
+                if (archivos[i].isDirectory()) {
+                    String nuevoEspacio;
+                    if (i == archivos.length - 1) {
+                        nuevoEspacio = espacio + "    ";
+                    } else {
+                        nuevoEspacio = espacio + "│   ";
+                    }
+                    mostrarArbol(archivos[i], nuevoEspacio);
+                }
+            }
         }
     }
 }
