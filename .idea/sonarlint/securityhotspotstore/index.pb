@@ -15,3 +15,7 @@ K
 [src/org/iesalandalus/programacion/actividades/flujos_de_caracteres/MostrarFicheroTexto.java,1\2\12c456af95d34aeb3a36431b159afc415bf1ac7b
 t
 Dsrc/org/iesalandalus/programacion/actividades/file/MostrarArbol.java,5\b\5b863ecf4b193e8a122dbcafcf4dd3926c1d3871
+
+Osrc/org/iesalandalus/programacion/actividades/bufferes/MostrarFicheroTexto.java,1\0\1053ad372957faab1a0f2c5bec35882682b4a62f
+~
+Nsrc/org/iesalandalus/programacion/actividades/bufferes/CopiarFicheroTexto.java,d\9\d9fa8f22c600e50c5db7c57ec0a66df64eaa92e5
