@@ -39,6 +39,18 @@ public class MostrarPropiedades {
                     }else{
                         System.out.println("Oculto: " + false);
                     }
+
+                    String[] listaCarpetas = entrada.list();
+
+                    if (listaCarpetas != null) {
+                        System.out.printf("%nContenido de la carpeta: %n%s%n", listaCarpetas);
+                        for (String nombreArchivo : listaCarpetas) {
+                            System.out.println(nombreArchivo);
+                        }
+                        System.out.println();
+                    } else {
+                        System.out.println("La carpeta está vacía.");
+                    }
                     LocalDate ultimaModificacion = new Timestamp(entrada.lastModified()).toLocalDateTime().toLocalDate();
                     System.out.println("Tamaño: " + entrada.length() + " bytes.");
                     System.out.println("Última modificación: " +ultimaModificacion);
