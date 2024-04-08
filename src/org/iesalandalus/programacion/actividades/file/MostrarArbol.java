@@ -11,6 +11,7 @@ public class MostrarArbol {
         String mensaje = Entrada.cadena();
         File entrada = new File(mensaje);
         if (entrada.exists() && entrada.isDirectory()) {
+            System.out.println(entrada.getName());
             mostrarArbol(entrada, "");
         }else{
             throw new FileNotFoundException("No se ha encontrado el directorio o este no lo es.");
