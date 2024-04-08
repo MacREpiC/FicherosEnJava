@@ -25,3 +25,17 @@ Y
 )ficheros/ficheroSerializacionObjectos.txt,2\1\21238e41d5c065f8e203d1c093c9e400cb801cf6
 ‡
 Wsrc/org/iesalandalus/programacion/actividades/datosprimitivos/EscribirFicheroDatos.java,5\1\518c8606734cf4cc1bcae9868324523f2dccb90d
+ƒ
+Ssrc/org/iesalandalus/programacion/actividades/datosPrimitivos/LeerFicheroDatos.java,2\7\274966add63564b26a51a3773cea5a8904e2b9b2
+‡
+Wsrc/org/iesalandalus/programacion/actividades/datosPrimitivos/EscribirFicheroDatos.java,8\6\8640f6891a6190296dd2146c5c691ca2dc48eb99
+ˆ
+Xsrc/org/iesalandalus/programacion/actividades/bufferesBinarios/CopiarFicheroBinario.java,2\a\2a4dadff87b3ab8f99864732cbd3eb3dfc07cee9
+W
+'ficheros/ficheroBinarioPequeEntrada.bin,f\4\f4ea8fd42041a4f00cc0efe60406c1c9dae25d79
+V
+&ficheros/ficheroBinarioPequeSalida.bin,7\4\746b5810522a584086bac4dfe487651bf7a87078
+Q
+!ficheros/ficheroBinarioSalida.bin,5\9\5939c671b8d5dcb3c480393a6fb02206d17d080a
+R
+"ficheros/ficheroBinarioEntrada.bin,d\0\d000162b29e8e0012313d34461cc54e35b97ce04

@@ -1,4 +1,4 @@
-package org.iesalandalus.programacion.actividades.datosprimitivos;
+package org.iesalandalus.programacion.actividades.datosPrimitivos;
 
 import java.io.*;
 
