@@ -3,19 +3,3 @@
 java:S1192"IDefine a constant instead of duplicating this literal "Oculto: " 4 times.(£ğÓ–şÿÿÿÿ8Ëœøöê1J$72eefc99-eb37-4893-a62d-f7fc675a5edb
 š
 java:S3776"RRefactor this method to reduce its Cognitive Complexity from 23 to the 15 allowed.(òá–İıÿÿÿÿ8íœøöê1J$f2d355b0-84ce-4a9a-9d49-94685052c113
-r	java:S106"+Replace this use of System.out by a logger.(á¨Äıÿÿÿÿ8ìöööê1J$764d3c35-14a2-4fe9-811a-cc67aed31230
-l	java:S106"+Replace this use of System.out by a logger.(•Â“	8íöööê1J$06ea81db-6306-49a2-a3f5-b91a7488bfc7
-r	java:S106"+Replace this use of System.out by a logger.(£ğÓ–şÿÿÿÿ8ñœøöê1J$64fd6e50-2735-4680-88c0-ee6b3c11882d
-m	java:S106"+Replace this use of System.out by a logger.(Üù†8ñœøöê1J$23d294c7-2468-49ee-89c1-80b9f0fc799d
-m	java:S106!"+Replace this use of System.out by a logger.(²ÂóÎ8òœøöê1J$1b9bb3a9-e4ea-4143-bbad-d8627e1723ba
-r	java:S106""+Replace this use of System.out by a logger.(üã‚øÿÿÿÿ8òœøöê1J$98603ac1-8c22-4d39-a38b-abd54f7790a6
-m	java:S106$"+Replace this use of System.out by a logger.(º½µ8òœøöê1J$ed075f3d-7ab9-464f-b610-e1e24725af7c
-r	java:S106&"+Replace this use of System.out by a logger.(£ğÓ–şÿÿÿÿ8óœøöê1J$bf7f2851-c938-416a-b306-cf056d244265
-m	java:S106("+Replace this use of System.out by a logger.(Üù†8óœøöê1J$4ed5da07-07dd-4c15-b91b-6f2b54d0adf5
-r	java:S1060"+Replace this use of System.out by a logger.(¡ŒŒåûÿÿÿÿ8ôœøöê1J$390caa01-0fa5-4691-8e4c-890635ef233f
-m	java:S1063"+Replace this use of System.out by a logger.(²ÂóÎ8ôœøöê1J$f3d8fcfa-2bd6-4112-acf1-9d234cfaa2f4
-r	java:S1064"+Replace this use of System.out by a logger.(üã‚øÿÿÿÿ8ôœøöê1J$bbf7d2ca-a0f0-4018-9577-a3654506fadd
-r	java:S1065"+Replace this use of System.out by a logger.(êö«§ÿÿÿÿÿ8ôœøöê1J$df9c4c63-a67b-4fdc-9d2f-3cbbb58bcddd
-m	java:S1069"+Replace this use of System.out by a logger.(÷€ŞË8ôœøöê1J$0012939e-eb23-4dac-8daa-48f7d5ba639a
-m	java:S106B"+Replace this use of System.out by a logger.(„Â“8“§üê1J$d851d7b2-09d7-4139-b9cb-de358dabc683
-r	java:S106E"+Replace this use of System.out by a logger.(…¬®Äıÿÿÿÿ8®°üê1J$db0dd922-adff-415c-9efc-461e69402d34

@@ -1,7 +1,3 @@
 
-F	java:S106
-"+Replace this use of System.out by a logger.(ú¯•s8ãçõê1
 H
 java:S1481"+Remove this unused "cadena" local variable.(´—¿‡8Ë×Ûñê1
-G	java:S106"+Replace this use of System.out by a logger.(ÿê÷ë8©ãçõê1
-L	java:S106"+Replace this use of System.out by a logger.(²ˆ­ıÿÿÿÿ8©ãçõê1

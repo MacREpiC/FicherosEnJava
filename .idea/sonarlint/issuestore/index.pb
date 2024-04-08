@@ -19,3 +19,9 @@ Dsrc/org/iesalandalus/programacion/actividades/file/MostrarArbol.java,5\b\5b863
 Osrc/org/iesalandalus/programacion/actividades/bufferes/MostrarFicheroTexto.java,1\0\1053ad372957faab1a0f2c5bec35882682b4a62f
 ~
 Nsrc/org/iesalandalus/programacion/actividades/bufferes/CopiarFicheroTexto.java,d\9\d9fa8f22c600e50c5db7c57ec0a66df64eaa92e5
+ƒ
+Ssrc/org/iesalandalus/programacion/actividades/datosprimitivos/LeerFicheroDatos.java,0\f\0f665dba6cae0a7241c493dce0f65de61a5d9367
+Y
+)ficheros/ficheroSerializacionObjectos.txt,2\1\21238e41d5c065f8e203d1c093c9e400cb801cf6
+‡
+Wsrc/org/iesalandalus/programacion/actividades/datosprimitivos/EscribirFicheroDatos.java,5\1\518c8606734cf4cc1bcae9868324523f2dccb90d
