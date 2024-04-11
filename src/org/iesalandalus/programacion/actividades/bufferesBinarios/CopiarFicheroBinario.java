@@ -4,6 +4,7 @@ import java.io.*;
 
 public class CopiarFicheroBinario {
     /*Escribir un programa en java que copie un fichero binario en otro, utilizando buferes.*/
+
     public static final String FICHERO_ENTRADA = String.format("%s%s%s", "ficheros", File.separator, "ficheroBinarioEntrada.bin");
     public static final String FICHERO_SALIDA = String.format("%s%s%s", "ficheros", File.separator, "ficheroBinarioSalida.bin");
     public static void main(String[] args) {
