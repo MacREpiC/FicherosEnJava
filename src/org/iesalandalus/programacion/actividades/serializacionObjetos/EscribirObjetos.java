@@ -1,4 +1,4 @@
-package org.iesalandalus.programacion.serializacionObjetos;
+package org.iesalandalus.programacion.actividades.serializacionObjetos;
 
 import org.iesalandalus.programacion.utilidades.Entrada;
 

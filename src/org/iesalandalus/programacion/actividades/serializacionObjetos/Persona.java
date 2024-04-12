@@ -1,4 +1,4 @@
-package org.iesalandalus.programacion.serializacionObjetos;
+package org.iesalandalus.programacion.actividades.serializacionObjetos;
 
 import java.io.Serializable;
 import java.util.Objects;
